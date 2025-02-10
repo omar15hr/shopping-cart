@@ -1,9 +1,18 @@
-# React + Vite
+# Enunciado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Ecommerce
 
-Currently, two official plugins are available:
+- Muestra una lista de productos que vienen de un JSON
+- Añade un filtro por categoría
+- Añade un filtro por precio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# shopping-cart
+Haz uso de Context para evitar pasar props innecesarias.
+
+
+2. Shopping Cart
+
+- Ha zuqe se puedan añadir los productos a un carrito.
+- Haz un botón para borrar un producto del carrito.
+- Haz que se pueda modificar la cantidad de un producto en el carrito.
+- Sincroniza los cambios del carrito con la lista de productos.
+- Guarda en un localStorage el carrito para que se recupere al recargar la página.
