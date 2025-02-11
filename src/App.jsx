@@ -6,12 +6,12 @@ import { Footer } from "./components/Footer";
 
 function App() {
   const { products } = useProducts();
-  const { setFilters, filterProducts } = useFilters();
+  const { filterProducts } = useFilters();
   const filteredProducts = filterProducts(products);
 
   return (
     <>
-      <Header setFilters={setFilters} />
+      <Header />
       <Products products={filteredProducts} />
       <Footer />
     </>
