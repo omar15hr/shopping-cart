@@ -10,6 +10,7 @@ function App() {
   const { products } = useProducts();
   const { filterProducts } = useFilters();
   const filteredProducts = filterProducts(products);
+  console.log(filteredProducts)
 
   return (
     <CartProvider>
